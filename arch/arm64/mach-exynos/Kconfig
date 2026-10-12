@@ -314,6 +314,14 @@ config MACH_GVWIFI
 	default n
 	depends on SOC_EXYNOS7580
 
+config MACH_J7ELTE
+	bool "Samsung Galaxy J7 2015 (SM-J700F/H/M) board DTBs"
+	default n
+
+config MACH_J7ELTE_TMO
+	bool "Samsung Galaxy J7 2015 T-Mobile/MetroPCS (SM-J700T/T1) board DTBs"
+	default n
+
 config MACH_GVLTE
 	bool "SAMSUNG Galaxy View LTE"
 	default n
